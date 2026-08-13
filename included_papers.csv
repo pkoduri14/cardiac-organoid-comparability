@@ -1,0 +1,115 @@
+paper_key,first_author,year,journal,doi,n_arms
+P01_LI_2021,Lewis-Israeli,2021,Nature Communications,10.1038/s41467-021-25329-5,6
+P02_BR_2022,Branco,2022,Nature Communications,10.1038/s41467-022-34730-7,6
+P03_DR_2021,Drakhlis,2021,Nature Biotechnology,10.1038/s41587-021-00815-9,1
+P04_ER_2022,Ergir,2022,Scientific Reports,10.1038/s41598-022-22225-w,2
+P05_GH_2023,Ghosheh,2023,Nature Biomedical Engineering,10.1038/s41551-023-01071-9,1
+P06_HO_2021,Hoang,2021,Stem Cell Reports,10.1016/j.stemcr.2021.03.013,2
+P07_VO_2023,Voges,2023,Cell Reports,10.1016/j.celrep.2023.112322,2
+P08_PO_2025,Pocock,2025,Nature Cardiovascular Research,10.1038/s44161-025-00669-3,2
+P09_LI_2022,Liang,2022,Frontiers Bioengineering Biotechnology,10.3389/fbioe.2022.1059243,2
+P10_FE_2022,Feng,2022,Communications Biology,10.1038/s42003-022-03346-4,2
+P11_HF_2021,Hofbauer,2021,Cell,10.1016/j.cell.2021.04.034,5
+P12_VO_2023,Volmert,2023,Nature Communications,10.1038/s41467-023-43999-1,4
+P13_AB_2025,Abilez,2025,Science,10.1126/science.adu9375,2
+P14_SA_2025,Santoro,2025,Materials Today Bio,10.1016/j.mtbio.2025.101566,2
+P15_SO_2021,Song,2021,Biomaterials,10.1016/j.biomaterials.2021.121133,2
+P16_HO_2022,Ho,2022,Stem Cell Research Therapy,10.1186/s13287-022-03215-1,2
+P17_KO_2024,Kostina,2024,Stem Cell Reports,10.1016/j.stemcr.2024.01.003,2
+P18_YA_2024,Yang,2024,Cell Proliferation,10.1111/cpr.13631,1
+P20_LE_2022,Lee,2022,Organoid,10.51335/organoid.2022.2.e14,1
+P21_HY_2024,Hyams,2024,Scientific Reports,10.1038/s41598-024-61554-w,1
+P22_LI_2022,Lewis-Israeli,2022,Current Protocols,10.1002/cpz1.461,1
+P23_AR_2023,Arzt,2023,Current Protocols,10.1002/cpz1.767,1
+P24_MI_2017,Mills,2017,PNAS,10.1073/pnas.1707316114,2
+P25_RI_2020,Richards,2020,Nature Biomedical Engineering,10.1038/s41551-020-0539-4,2
+P26_SC_2023,Schmidt,2023,Cell,10.1016/j.cell.2023.10.030,4
+P27_BR_2019,Branco,2019,Scientific Reports,10.1038/s41598-019-45047-9,2
+P28_GI_2020,Giacomelli,2020,Cell Stem Cell,10.1016/j.stem.2020.05.004,2
+P32_LEE_2021,Lee,2021,Biomedicines,10.3390/biomedicines9121952,4
+P33_HARIHA_2025,Harihara,2025,Tissue engineering. Part A,10.1177/19373341251392244,2
+P43_KOWALC_2024,Kowalczewski,2024,Cell reports methods,10.1016/j.crmeth.2024.100798,7
+P44_PATINO_2023,Patino-Guerrero,2023,RSC advances,10.1021/acsbiomaterials.2c01290,4
+P57_SILVER_2023,Silver,2023,eLife,10.7554/eLife.83532,5
+P200_WANG_2025,Wang,2025,Biochemical and biophysical research communications,10.1016/j.bbrc.2025.152140,3
+P201_LIANG_2025,Liang,2025,Biochemical pharmacology,10.1016/j.bcp.2025.117282,7
+P203_YIANGO_2026,Yiangou,2026,Experimental cell research,10.1016/j.yexcr.2026.115065,4
+P204_HOEHLS_2025,Hoehlschen,2025,Life sciences,10.1016/j.lfs.2025.123923,1
+P205_MA_2024,Ma,2024,Chemosphere,10.1016/j.chemosphere.2024.141567,5
+P206_SCALIS_2025,Scalise,2025,Mechanisms of ageing and development,10.1016/j.mad.2024.112007,3
+P207_LI_2024,Li,2024,The Science of the total environment,10.1016/j.scitotenv.2023.167406,3
+P208_SUN_2024,Sun,2024,The Science of the total environment,10.1016/j.scitotenv.2024.170675,10
+P209_RICHAR_2017,Richards,2017,Biomaterials,10.1016/j.biomaterials.2017.07.021,5
+P210_LI_2018,Li,2018,Biomaterials,10.1016/j.biomaterials.2018.02.024,1
+P211_VARZID_2019,Varzideh,2019,Biomaterials,10.1016/j.biomaterials.2018.11.033,8
+P213_LEE_2025,Lee,2025,Ecotoxicology and environmental safety,10.1016/j.ecoenv.2024.117489,1
+P214_HYUN_2025,Hyun,2025,Ecotoxicology and environmental safety,10.1016/j.ecoenv.2025.119496,5
+P215_ZHOU_2023,Zhou,2023,Environment international,10.1016/j.envint.2023.108171,5
+P217_LEE_2024,Lee,2024,Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie,10.1016/j.biopha.2024.116511,5
+P218_MING_2022,Ming,2022,Biosensors & bioelectronics,10.1016/j.bios.2022.114136,1
+P219_GRUMEL_2026,Grumelot,2026,"Chemical engineering journal (Lausanne, Switzerland : 1996)",10.1016/j.cej.2026.172977,2
+P220_MILLS_2019,Mills,2019,Cell stem cell,10.1016/j.stem.2019.03.009,2
+P221_OHERN_2025,O'Hern,2025,Cell stem cell,10.1016/j.stem.2025.09.011,9
+P223_ZHANG_2026,Zhang,2026,Cell stem cell,10.1016/j.stem.2026.04.018,8
+P224_ABRAHA_2025,Abraham,2025,Cell reports,10.1016/j.celrep.2025.115687,3
+P225_WEISER_2025,Weiser-Bitoun,2025,iScience,10.1016/j.isci.2025.112005,1
+P226_LEES_2024,Lees,2024,Journal of molecular and cellular cardiology plus,10.1016/j.jmccpl.2024.100085,7
+P227_CAO_2024,Cao,2024,Stem cell research & therapy,10.1186/s13287-024-04115-2,3
+P229_LIU_2024,Liu,2024,bioRxiv : the preprint server for biology,10.1101/2024.12.07.627355,3
+P230_SILVER_2025,Silver,2025,bioRxiv : the preprint server for biology,10.1101/2025.04.09.648007,2
+P231_METZLR_2025,Metzl-Raz,2025,bioRxiv : the preprint server for biology,10.1101/2025.10.15.680997,2
+P232_NEUFEL_2024,Neufeldt,2024,Basic research in cardiology,10.1007/s00395-024-01048-y,2
+P233_SEEFEL_2024,Seefeldt,2024,Scientific reports,10.1038/s41598-024-51387-y,1
+P234_MCNAMA_2023,McNamara,2023,Nature cardiovascular research,10.1038/s44161-023-00219-9,2
+P235_TAN_2024,Tan,2024,The EMBO journal,10.1038/s44318-024-00084-7,2
+P236_SONG_2025,Song,2025,Advanced healthcare materials,10.1002/adhm.202403997,8
+P237_CHOI_2026,Choi,2026,"Advanced materials (Deerfield Beach, Fla.)",10.1002/adma.202506793,1
+P238_KIM_2026,Kim,2026,"Advanced science (Weinheim, Baden-Wurttemberg, Germany)",10.1002/advs.202514365,2
+P239_YUAN_2025,Yuan,2025,"Advanced science (Weinheim, Baden-Wurttemberg, Germany)",10.1002/advs.202414455,4
+P240_LIN_2025,Lin,2025,Angewandte Chemie (International ed. in English),10.1002/anie.202503252,2
+P241_JIANG_2026,Jiang,2026,Journal of biomedical research,10.7555/JBR.39.20250533,6
+P242_KISELE_2026,Kiselev,2026,British journal of pharmacology,10.1111/bph.70247,1
+P243_BURREL_2026,Burrello,2026,"Hypertension (Dallas, Tex. : 1979)",10.1161/HYPERTENSIONAHA.125.25686,8
+P245_NOH_2023,Noh,2023,Cells,10.3390/cells12162029,3
+P246_FANG_2024,Fang,2024,ACS nano,10.1021/acsnano.4c08886,2
+P247_ZHANG_2025,Zhang,2025,Cell proliferation,10.1111/cpr.13762,3
+P248_ARSLAN_2024,Arslan,2024,Current protocols,10.1002/cpz1.1097,1
+P250_LI_2019,Li,2019,Nano letters,10.1021/acs.nanolett.9b02512,3
+P251_VOGES_2017,Voges,2017,"Development (Cambridge, England)",10.1242/dev.143966,3
+P253_TIAN_2022,Tian,2022,Frontiers in cell and developmental biology,10.3389/fcell.2022.1001453,5
+P254_MARINI_2022,Marini,2022,Frontiers in cell and developmental biology,10.3389/fcell.2022.878311,2
+P255_GEYER_2024,Geyer,2024,Frontiers in cell and developmental biology,10.3389/fcell.2024.1426043,4
+P256_ROCKEL_2025,Rockel,2025,Frontiers in cell and developmental biology,10.3389/fcell.2025.1629988,2
+P257_KAWAI_2021,Kawai,2021,Frontiers in cardiovascular medicine,10.3389/fcvm.2021.806215,5
+P259_HAIM_2025,Haim,2025,Circulation. Heart failure,10.1161/CIRCHEARTFAILURE.124.011690,7
+P260_KERR_2021,Kerr,2021,International journal of molecular sciences,10.3390/ijms22168482,2
+P261_VITAL_2026,Vital,2026,International journal of molecular sciences,10.3390/ijms27020981,1
+P262_LI_2024,Li,2024,The Journal of clinical investigation,10.1172/JCI177172,3
+P264_YAO_2026,Yao,2026,Journal of cardiovascular pharmacology,10.1097/FJC.0000000000001802,7
+P266_WU_2025,Wu,2025,Toxicological sciences : an official journal of the Society of Toxicology,10.1093/toxsci/kfaf115,5
+P267_ZHANG_2022,Zhang,2022,Life medicine,10.1093/lifemedi/lnac002,2
+P268_KNZEL_2022,Künzel,2022,Heliyon,10.1016/j.heliyon.2022.e10365,2
+P269_OHERN_2026,O'Hern,2026,STAR protocols,10.1016/j.xpro.2026.104411,4
+P270_WANG_2023,Wang,2023,Virologica Sinica,10.1016/j.virs.2023.09.005,3
+P271_BECK_2022,Beck,2022,JACC. CardioOncology,10.1016/j.jaccao.2022.07.009,3
+P272_KIM_2022,Kim,2022,Nano letters,10.1021/acs.nanolett.2c02790,1
+P273_GONG_2025,Gong,2025,Nan fang yi ke da xue xue bao = Journal of Southern Medical University,10.12122/j.issn.1673-4254.2025.11.17,8
+P274_HOANG_2023,Hoang,2023,"Cells, tissues, organs",10.1159/000521787,8
+P275_HAO_2023,Hao,2023,Optics letters,10.1364/OL.493824,1
+P277_VOLMER_2025,Volmert,2025,"Methods in molecular biology (Clifton, N.J.)",10.1007/7651_2024_545,1
+P278_THOMAS_2024,Thomas,2024,Nature cardiovascular research,10.1038/s44161-024-00543-8,3
+P279_KAYNAK_2026,Kaynak,2026,"Advanced materials (Deerfield Beach, Fla.)",10.1002/adma.202509675,5
+P281_PARKER_2026,Parker,2026,Journal of visualized experiments : JoVE,10.3791/70310,4
+P283_HOANG_2018,Hoang,2018,Nature protocols,10.1038/nprot.2018.006,3
+P284_KANDUL_2024,Kandula,2024,bioRxiv : the preprint server for biology,10.1101/2024.01.15.575724,1
+P285_JAHNEL_2026,Jahnel,2026,bioRxiv : the preprint server for biology,10.64898/2026.01.26.700345,4
+P287_KITSUK_2019,Kitsuka,2019,PloS one,10.1371/journal.pone.0213114,2
+P288_RAVLO_2025,Ravlo,2025,Cellular and molecular life sciences : CMLS,10.1007/s00018-025-05581-4,1
+P289_HUANG_2024,Huang,2024,Nature communications,10.1038/s41467-024-50919-4,1
+P290_MOSHKS_2023,Moshksayan,2023,Scientific reports,10.1038/s41598-023-38212-8,1
+P291_PARK_2026,Park,2026,Scientific reports,10.1038/s41598-025-34504-3,1
+P292_KANG_2026,Kang,2026,Scientific reports,10.1038/s41598-026-51332-1,6
+P293_SALLAM_2022,Sallam,2022,Circulation,10.1161/CIRCULATIONAHA.121.054317,3
+P294_SIM_2021,Sim,2021,Circulation,10.1161/CIRCULATIONAHA.120.051921,3
+P296_PARK_2025,Park,2025,Nano letters,10.1021/acs.nanolett.5c00069,3
+P298_ARHONT_2022,Arhontoulis,2022,Journal of tissue engineering and regenerative medicine,10.1002/term.3327,3
