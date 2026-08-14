@@ -35,16 +35,20 @@ and 3 define the codes and the order in which they are applied.
 
 ## 2. Failure codes
 
-| Code | Definition |
-|---|---|
-| `not_primary` | Review, protocol-only, or meta-analysis; no primary experimental arm. |
-| `defined_input_ratio` | CMs are a seeded input (engineered heart tissue, tri-lineage assembly, CM to non-CM mixing, or any construct assembled from cells differentiated before assembly). The fraction is an input, not a yield. |
-| `substrate_2D_denominator` | 2D, micropatterned, or substrate-attached; CM measured as area percentage rather than a cell fraction. |
-| `alternate_lineage` | The condition is intended to produce a non-CM lineage (epicardium or WT1+, endothelial or CD31+); CM is not the intended output. |
-| `regional_identity_spec` | The reported quantity is a CM subtype fraction (atrial, ventricular, sinoatrial, chamber or heart-field), not a pan-CM yield. |
-| `disease_or_KO` | Disease model, genetic knockout, or disease perturbation arm in which the reported fraction is the disease effect rather than a protocol yield. |
-| `toxicant_perturbation` | An agent is dosed specifically to abolish or distort cardiac differentiation. |
-| `no_value_reported` | The arm is in an eligible construct and its purpose is compatible with reporting a yield, but no numerical CM fraction appears in the source. Added in v1.1. |
+The `comparability_reason` column of the resource stores the label in the third column below.
+Code and label are one to one; use this table to move between them.
+
+| Code | Definition | Label in the resource |
+|---|---|---|
+| (gate passed) | The arm satisfies all five conditions in Section 1. | `eligible yield` |
+| `not_primary` | Review, protocol-only, or meta-analysis; no primary experimental arm. | `not primary` |
+| `defined_input_ratio` | CMs are a seeded input (engineered heart tissue, tri-lineage assembly, CM to non-CM mixing, or any construct assembled from cells differentiated before assembly). The fraction is an input, not a yield. | `seeded input` |
+| `substrate_2D_denominator` | The denominator is not a count of cells. This covers 2D, micropatterned, and substrate-attached constructs, and also 3D constructs whose cardiomyocyte content is reported as an image-area percentage rather than a cell fraction. | `2D substrate` |
+| `alternate_lineage` | The condition is intended to produce a non-CM lineage (epicardium or WT1+, endothelial or CD31+); CM is not the intended output. | `alternate lineage` |
+| `regional_identity_spec` | The reported quantity is a CM subtype fraction (atrial, ventricular, sinoatrial, chamber or heart-field), not a pan-CM yield. | `subtype spec` |
+| `disease_or_KO` | Disease model, genetic knockout, or disease perturbation arm in which the reported fraction is the disease effect rather than a protocol yield. | `disease model` |
+| `toxicant_perturbation` | An agent is dosed specifically to abolish or distort cardiac differentiation. | `toxicant dosed` |
+| `no_value_reported` | The arm is in an eligible construct and its purpose is compatible with reporting a yield, but no numerical CM fraction appears in the source. Added in v1.1. | `no value reported` |
 
 ## 3. Multiple codes and choosing the primary one
 

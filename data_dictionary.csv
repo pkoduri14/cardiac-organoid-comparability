@@ -1,54 +1,55 @@
 column,definition,type,unit,allowed_values,pct_filled
 paper_id,Unique arm identifier,string,,P<n>_<AUTHOR>_<year>_<arm>,100.0
-first_author,First-author surname,string,,,98.7
-year,Publication year,integer,year,2016-2026,98.7
-journal,Publishing journal,string,,,98.7
-cell_line,hPSC line(s) used,string,,,95.9
+first_author,First-author surname,string,,,100.0
+year,Publication year,integer,year,2016-2026,100.0
+journal,Publishing journal,string,,,100.0
+cell_line,hPSC line(s) used,string,,,94.0
 model_class,Construct-class code,categorical,,self_organizing | reaggregation | assembly_EHT | micropatterned | suspension_EB_CM | ...,100.0
-chir_d0_um,Day-0 CHIR99021 (GSK3i / Wnt activator) dose,float,uM,,54.4
-wnt_inhibitor_type,Wnt-off agent,categorical,,IWP2 | IWR1 | Wnt-C59 | XAV939 | ...,67.0
-wnt_inhibitor_dose_um,Wnt-inhibitor dose,float,uM,,57.4
-wnt_inhibitor_days,Days of Wnt inhibition,float,days,,67.2
-second_wnt_pulse,Second Wnt-modulation pulse applied,boolean,,y | n,67.4
-second_wnt_dose_um,Second Wnt-pulse dose,float,uM,,14.1
-second_wnt_day,Day of second Wnt pulse,float,day,,14.3
-second_wnt_duration_h,Duration of second Wnt pulse,float,hours,,13.7
-second_wnt_media,Media during second Wnt pulse,string,,,14.1
-bmp4,BMP4 added,boolean,,y | n,68.0
-bmp4_dose_ngml,BMP4 dose,float,ng/mL,,24.1
-activin_a,Activin A added,boolean,,y | n,68.0
-activin_dose_ngml,Activin A dose,float,ng/mL,,21.8
-ra,Retinoic acid added,boolean,,y | n,69.3
-ra_dose_um,Retinoic-acid dose,float,uM,,9.4
-ra_timing_days,Retinoic-acid application window,string,days,,11.3
-matrigel_embedding,Construct forms within an ECM (Matrigel/Geltrex) matrix - cells-in-gel or aggregate-in-droplet; NOT a bare 2D Matrigel surface coating,boolean,,y | n,84.6
-platform_type,Fabrication platform/device,categorical,,AggreWell | micropatterned | Heart-Dyno | bioreactor | U-bottom | ...,91.9
-seeding_density_cells_per_well,Cells seeded per well/aggregate,float,cells,,63.1
-base_media,Base differentiation medium,string,,RPMI/B27 | ...,88.3
-collection_day,Day of harvest/analysis,float,day,,79.3
-insulin_present,Insulin present during early differentiation,boolean,,y | n,65.7
-cm_fraction_pct,"Cardiomyocyte fraction, the central yield readout",float,%,0-100,32.6
-cm_fraction_method,Method used to measure CM%,categorical,,flow | scrna_cluster | reporter_GFP | area_ratio | seeded_input | IF | NR,41.6
-wt1_fraction_pct,WT1+ epicardial fraction,float,%,0-100,1.9
-wt1_fraction_method,Method for WT1%,categorical,,flow | IF | scrna_cluster | NR,4.5
-chamber_formation,Chambers/cavities formed,boolean,,y | n,54.8
+chir_d0_um,Day-0 CHIR99021 (GSK3i / Wnt activator) dose,float,uM,,52.3
+wnt_inhibitor_type,Wnt-off agent,categorical,,IWP2 | IWR1 | Wnt-C59 | XAV939 | ...,69.8
+wnt_inhibitor_dose_um,Wnt-inhibitor dose,float,uM,,56.7
+wnt_inhibitor_days,Days of Wnt inhibition,float,days,,67.6
+second_wnt_pulse,Second Wnt-modulation pulse applied,boolean,,y | n,70.0
+second_wnt_dose_um,Second Wnt-pulse dose,float,uM,,19.1
+second_wnt_day,Day of second Wnt pulse,float,day,,19.3
+second_wnt_duration_h,Duration of second Wnt pulse,float,hours,,18.5
+second_wnt_media,Media during second Wnt pulse,string,,,19.1
+bmp4,BMP4 added,boolean,,y | n,70.6
+bmp4_dose_ngml,BMP4 dose,float,ng/mL,,27.2
+activin_a,Activin A added,boolean,,y | n,71.1
+activin_dose_ngml,Activin A dose,float,ng/mL,,26.7
+ra,Retinoic acid added,boolean,,y | n,71.7
+ra_dose_um,Retinoic-acid dose,float,uM,,9.5
+ra_timing_days,Retinoic-acid application window,string,days,,11.7
+matrigel_embedding,Construct forms within an ECM (Matrigel/Geltrex) matrix - cells-in-gel or aggregate-in-droplet; NOT a bare 2D Matrigel surface coating,boolean,,y | n,83.9
+platform_type,Fabrication platform/device,categorical,,AggreWell | micropatterned | Heart-Dyno | bioreactor | U-bottom | ...,92.4
+seeding_density_cells_per_well,Cells seeded per well/aggregate,float,cells,,67.6
+base_media,Base differentiation medium,string,,RPMI/B27 | ...,90.2
+collection_day,Day of harvest/analysis,float,day,,77.7
+insulin_present,Insulin present during early differentiation,boolean,,y | n,70.0
+cm_fraction_pct,"Cardiomyocyte fraction, the central yield readout",float,%,0-100,30.2
+cm_fraction_method,Method used to measure CM%,categorical,,flow | scrna_cluster | reporter_GFP | area_ratio | seeded_input | IF | NR,37.3
+wt1_fraction_pct,WT1+ epicardial fraction,float,%,0-100,2.7
+wt1_fraction_method,Method for WT1%,categorical,,flow | IF | scrna_cluster | NR,5.4
+chamber_formation,Chambers/cavities formed,boolean,,y | n,49.6
 chamber_area_pct,Chamber/cavity area fraction,float,%,0-100,3.0
-organoid_diameter_um,Organoid diameter,float,um,,19.6
-beating_onset_day,Day spontaneous beating first observed,float,day,,33.1
-sarcomere_tem_um,Sarcomere length by TEM,float,um,,2.8
-sarcomere_fluor_um,Sarcomere length by fluorescence,float,um,,2.6
-cd31_fraction_pct,CD31+ endothelial fraction,float,%,0-100,8.7
-ec_marker,Endothelial marker reported,categorical,,CD31/PECAM1 | CD144/CDH5 | ...,42.7
-beat_rate_bpm,Spontaneous beat rate,float,bpm,,15.6
-beat_rate_method,Method for beat rate,categorical,,video | MEA | calcium | NR,52.7
-tnni3_fraction_pct,Cardiac troponin I (TNNI3+) fraction,float,%,0-100,0.4
-contractile_force_uN,Contractile force,float,uN,,2.3
-rna_seq_available,Transcriptomic data deposited,boolean,,y | n,94.4
-geo_accession,GEO/SRA/ArrayExpress accession,string,,,24.3
-disease_perturbation,Disease model / drug / genetic perturbation (or none),string,,,46.0
-extraction_confidence,LLM extraction confidence,float,0-1,,60.5
-cm_evidence_quote,Exact source sentence supporting cm_fraction_pct,string,,,60.5
-cm_evidence_page,Source location (page/figure) of the CM% evidence,string,,,5.3
+organoid_diameter_um,Organoid diameter,float,um,,19.3
+beating_onset_day,Day spontaneous beating first observed,float,day,,34.1
+sarcomere_tem_um,Sarcomere length by TEM,float,um,,4.1
+sarcomere_fluor_um,Sarcomere length by fluorescence,float,um,,1.6
+cd31_fraction_pct,CD31+ endothelial fraction,float,%,0-100,9.0
+ec_marker,Endothelial marker reported,categorical,,CD31/PECAM1 | CD144/CDH5 | ...,43.1
+beat_rate_bpm,Spontaneous beat rate,float,bpm,,16.9
+beat_rate_method,Method for beat rate,categorical,,video | MEA | calcium | NR,55.6
+tnni3_fraction_pct,Cardiac troponin I (TNNI3+) fraction,float,%,0-100,0.5
+contractile_force_uN,Contractile force,float,uN,,1.9
+rna_seq_available,Transcriptomic data deposited,boolean,,y | n,96.7
+geo_accession,GEO/SRA/ArrayExpress accession,string,,,26.4
+disease_perturbation,Disease model / drug / genetic perturbation (or none),string,,,43.1
+extraction_confidence,LLM extraction confidence,float,0-1,,77.1
+cm_evidence_quote,Exact source sentence supporting cm_fraction_pct,string,,,88.0
+cm_evidence_page,Source location (page/figure) of the CM% evidence,string,,,20.2
 construct_comparability,"Whether the arm passes the comparability gate (1 = potentially comparable, 0 = not)",binary,,0 | 1,100.0
 comparability_reason,"Primary reason for the verdict: eligible yield, or one of the eight failure codes",categorical,,see comparability_codebook_v1.1.md,100.0
 doi,Digital object identifier of the source publication,string,,,100.0
+evidence_source,"Where the supporting quotation came from: original extraction, blinded annotation, or both",categorical,,extraction | blinded annotation | extraction; corroborated by blinded annotation,88.0

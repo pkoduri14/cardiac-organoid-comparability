@@ -7,21 +7,23 @@ A source-linked resource of 114 papers and 367 protocol arms. Each arm carries a
 construct-comparability verdict and, where the arm is not comparable, a single primary failure code.
 31 arms (8 percent) pass the gate.
 
-Each verdict traces to a specific arm, a specific field, and a specific passage in a specific paper,
-and can be recomputed or contested without re-extracting the literature.
+Every arm that passes the gate carries a supporting quotation and a page locator, so each of those
+verdicts can be checked against its source. Coverage is partial elsewhere: of the 111 reported
+cardiomyocyte fractions, 98 carry a quotation, and among the 80 reported by excluded arms, 67 do.
 
 ## Contents
 
 | File | What it is |
 |---|---|
-| `cardiac_organoid_arms.xlsx` | The resource. One row per protocol arm, 53 fields, including the comparability verdict, its reason, a DOI, and the supporting quotation and page where one was extracted. |
+| `cardiac_organoid_arms.xlsx` | The resource. One row per protocol arm, 54 fields, including the comparability verdict, its reason, a DOI, and the supporting quotation and page where one was extracted. |
 | `comparability_codebook_v1.1.md` | The gate and the eight failure codes, with the priority order used to assign a single primary reason. Includes the v1.0 to v1.1 revision history. |
 | `included_papers.csv` | The 114 included papers with author, year, journal, DOI, and arm count. |
 | `data_dictionary.csv` | Field-level definitions for the resource schema. |
 | `correction_log.csv` | Every correction made during human re-audit and adjudication, with old value, new value, and the reason, usually a quotation and page. 176 entries. |
 | `validation_blinded_annotation.csv` | The second annotator's independent classifications of 54 arms, produced blind to the original labels, with their own extracted values and supporting quotations. |
 | `validation_adjudication.csv` | Original label, blinded label, and final adjudicated label for all 54 arms. |
-| `reproduce_paper_numbers.py` | Recomputes every number reported in the paper from `cardiac_organoid_arms.xlsx`. |
+| `reproduce_paper_numbers.py` | Recomputes the corpus-level results in the paper from `cardiac_organoid_arms.xlsx`. |
+| `LICENSE.txt` | CC BY 4.0 for the data and documentation, MIT for the analysis code. |
 
 Source PDFs are not redistributed. Papers are identified by DOI in `included_papers.csv`.
 
@@ -39,12 +41,12 @@ match those reported in the paper.
 ## Validation status
 
 The comparability labels are one curator's determinations, adjudicated against one blinded second
-annotator over 54 arms: all 36 arms then passing the gate, plus a stratified sample of excluded
-arms, two per failure code.
+annotator over 54 arms: the 40 then passing the gate, plus a stratified sample of excluded arms, two
+per failure code.
 
 - Exact agreement on the primary classification: 65 percent (35 of 54)
 - Agreement on the binary comparable or not-comparable decision: 72 percent (39 of 54)
-- Adjudication removed 8 arms and added 3, revising the count from 36 to 31
+- Adjudication removed 11 arms and added 2, revising the count from 40 to 31
 
 Agreement was measured while applying codebook v1.0. All three disagreement clusters traced to cases
 that v1.0 left implicit and that v1.1 states explicitly; the codebook's revision history gives the

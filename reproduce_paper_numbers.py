@@ -1,8 +1,9 @@
 """
-Recomputes every number reported in the paper from cardiac_organoid_arms.xlsx.
+Recomputes the corpus-level results in the paper from cardiac_organoid_arms.xlsx.
 Run: python reproduce_paper_numbers.py   (requires openpyxl, numpy)
 Prints the funnel, method sub-pools, Table 2, the eligible-construct split,
-the reporting gap, by-year completeness, and the deposition count.
+the reporting gap, by-year completeness, and the deposition count. Validation
+transitions and corpus exclusions are recorded in the validation CSVs instead.
 """
 import os, re
 import numpy as np
@@ -91,11 +92,10 @@ print('      by measurement/reporting      %d' % len(by_reporting))
 
 # Upper bound assumes every reporting-blocked arm reports a valid cell fraction.
 print('\nREPORTING GAP (Findings, third paragraph)')
-no_value = [r for r in by_reporting if np.isnan(num(r[col('cm_fraction_pct')]))]
-bad_method = [r for r in by_reporting if not np.isnan(num(r[col('cm_fraction_pct')]))]
 ceiling = len(comparable) + len(by_reporting)
-print('  recoverable arms                  %d  (no value %d, ineligible method %d)'
-      % (len(by_reporting), len(no_value), len(bad_method)))
+print('  recoverable arms                  %d' % len(by_reporting))
+for reason, n in Counter(r[col('comparability_reason')] for r in by_reporting).most_common():
+    print('    %-30s %d' % (reason, n))
 print('  prospective upper bound           %d to %d of %d  (%.0f%% to %.0f%%)'
       % (len(comparable), ceiling, N, pct(len(comparable)), pct(ceiling)))
 print('  held fixed (design/role)          %d' % len(by_design))
