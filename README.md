@@ -23,7 +23,6 @@ cardiomyocyte fractions, 98 carry a quotation, and among the 80 reported by excl
 | `validation_blinded_annotation.csv` | The second annotator's independent classifications of 54 arms, produced blind to the original labels, with their own extracted values and supporting quotations. |
 | `validation_adjudication.csv` | Original label, blinded label, and final adjudicated label for all 54 arms. |
 | `reproduce_paper_numbers.py` | Recomputes the corpus-level results in the paper from `cardiac_organoid_arms.xlsx`. |
-| `LICENSE.txt` | CC BY 4.0 for the data and documentation, MIT for the analysis code. |
 
 Source PDFs are not redistributed. Papers are identified by DOI in `included_papers.csv`.
 
