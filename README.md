@@ -1,7 +1,6 @@
 # Cardiac-Organoid Comparability Resource
 
-Anonymized review copy accompanying "Making Cardiac-Organoid Literature Comparable: An Arm-Level
-Framework and Source-Linked Resource."
+Data and code accompanying "Making Cardiac-Organoid Literature Comparable: An Arm-Level Framework and Source-Linked Resource," JCDL 2026.
 
 A source-linked resource of 114 papers and 367 protocol arms. Each arm carries an explicit
 construct-comparability verdict and, where the arm is not comparable, a single primary failure code.
