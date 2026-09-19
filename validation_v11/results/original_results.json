@@ -1,0 +1,146 @@
+{
+  "comparison": "Original delivered-v1.1 annotations versus frozen pre-correction reference",
+  "reference_commit": "06c9d6de28c81a9b83bcab3f1706d71bba735f20",
+  "primary_label": {
+    "n": 54,
+    "matches": 47,
+    "agreement": 0.8703703703703703,
+    "kappa": 0.8120338140228742,
+    "labels": [
+      "alternate_lineage",
+      "defined_input_ratio",
+      "disease_or_KO",
+      "no_value_reported",
+      "not_primary",
+      "potentially_comparable",
+      "regional_identity_spec",
+      "substrate_2D_denominator",
+      "toxicant_perturbation"
+    ],
+    "confusion_matrix_rows_reference": [
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        25,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "binary_eligibility": {
+    "n": 54,
+    "matches": 48,
+    "agreement": 0.8888888888888888,
+    "kappa": 0.7801899592944369,
+    "labels": [
+      false,
+      true
+    ],
+    "confusion_matrix_rows_reference": [
+      [
+        23,
+        0
+      ],
+      [
+        6,
+        25
+      ]
+    ]
+  },
+  "unclassified_count": 0,
+  "same_arms_as_v10": true,
+  "v111_followup_results": null,
+  "note": "These statistics are not post-adjudication scores or validation of revised v1.1.1 rules."
+}

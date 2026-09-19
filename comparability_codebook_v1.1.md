@@ -111,4 +111,4 @@ now stated explicitly above.
    fraction, so such arms matched nothing. v1.1 adds `no_value_reported`.
 
 Agreement was measured while applying v1.0. The figure therefore characterizes that version rather
-than the one released here, and it has not been re-measured on v1.1.
+than the one released here.

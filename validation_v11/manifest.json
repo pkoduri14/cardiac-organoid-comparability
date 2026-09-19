@@ -1,0 +1,20 @@
+{
+  "frozen_reference_commit": "06c9d6de28c81a9b83bcab3f1706d71bba735f20",
+  "original_annotation_workbook_sha256": "42da0baeecdb8a25a8b67e298c6b0fb78eb4f0f7c0caff93e62d5aa1aff55b7c",
+  "annotation_export": "All cells from first worksheet, same row/column order; blank cells exported as empty CSV fields. No formulas present, no labels edited.",
+  "annotation_row_count": 54,
+  "frozen_files": [
+    {
+      "name": "blinded_annotation.csv",
+      "sha256": "3a0902bffef165eee89abbaefd9000e460088ae1eadda7cd974affc5dbdba9b1"
+    },
+    {
+      "name": "frozen_reference.csv",
+      "sha256": "8ec59111cc1ba684edfd3b3a6c99ae6ee266b4f6dfaba6f514dddc23f1c07910"
+    },
+    {
+      "name": "codebook_as_delivered.md",
+      "sha256": "20a87824ccbc94adc7639e55c158d28065c16c6cb7bdd4019a86ed3b86073f62"
+    }
+  ]
+}

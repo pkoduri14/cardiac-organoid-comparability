@@ -16,12 +16,15 @@ cardiomyocyte fractions, 98 carry a quotation, and among the 80 reported by excl
 |---|---|
 | `cardiac_organoid_arms.xlsx` | The resource. One row per protocol arm, 54 fields, including the comparability verdict, its reason, a DOI, and the supporting quotation and page where one was extracted. |
 | `comparability_codebook_v1.1.md` | The gate and the eight failure codes, with the priority order used to assign a single primary reason. Includes the v1.0 to v1.1 revision history. |
+| `comparability_codebook_v1.1.1.md` | Post-evaluation clarification of v1.1: the same gate and codes, with an explicit rule for derived pan-CM totals. |
 | `included_papers.csv` | The 114 included papers with author, year, journal, DOI, and arm count. |
 | `data_dictionary.csv` | Field-level definitions for the resource schema. |
-| `correction_log.csv` | Every correction made during human re-audit and adjudication, with old value, new value, and the reason, usually a quotation and page. 176 entries. |
+| `correction_log.csv` | Every correction made during human re-audit and adjudication, with old value, new value, and the reason, usually a quotation and page. 177 entries. |
 | `validation_blinded_annotation.csv` | The second annotator's independent classifications of 54 arms, produced blind to the original labels, with their own extracted values and supporting quotations. |
 | `validation_adjudication.csv` | Original label, blinded label, and final adjudicated label for all 54 arms. |
 | `reproduce_paper_numbers.py` | Recomputes the corpus-level results in the paper from `cardiac_organoid_arms.xlsx`. |
+| `validation_v11/` | The v1.1 re-annotation of the same 54 arms by a new blinded annotator: raw annotations, the codebook as delivered, the frozen reference, and computed results. |
+| `reproduce_validation_v11.py`, `tests/` | Recomputes the v1.1 agreement statistics from `validation_v11/`, with input checks. |
 
 Source PDFs are not redistributed. Papers are identified by DOI in `included_papers.csv`.
 
@@ -46,10 +49,21 @@ per failure code.
 - Agreement on the binary comparable or not-comparable decision: 72 percent (39 of 54)
 - Adjudication removed 11 arms and added 2, revising the count from 40 to 31
 
-Agreement was measured while applying codebook v1.0. All three disagreement clusters traced to cases
-that v1.0 left implicit and that v1.1 states explicitly; the codebook's revision history gives the
-detail. The figure therefore characterizes the version tested rather than the version released, and
-it has not been re-measured on v1.1.
+These statistics characterize the original v1.0 evaluation. Its disagreements informed v1.1.
+
+A new blinded annotator with relevant biomedical training, uninvolved in codebook revision,
+subsequently applied the delivered v1.1 to the same 54 arms. Against the frozen adjudicated
+reference from commit `06c9d6de28c81a9b83bcab3f1706d71bba735f20`, exact primary-label agreement
+was 47/54 (87.0%; Cohen's kappa 0.8120) and binary eligibility agreement was 48/54
+(88.9%; kappa 0.7802), with no unclassified arms. This was a new-rater, same-sample
+evaluation, not a held-out evaluation on unseen arms. Keep these results separate from v1.0.
+
+These agreement statistics are comparisons against the pre-correction reference. One correction
+was applied to the corpus afterwards: the Silver 2023 doxorubicin arm `P57_SILVER_2023_2` moved from
+`no value reported` to `toxicant dosed` (see `correction_log.csv`). The raw v1.1 annotations, the
+codebook as delivered, and the frozen reference are in `validation_v11/`; run
+`python reproduce_validation_v11.py` to recompute the statistics. `comparability_codebook_v1.1.1.md`
+is a post-evaluation clarification (derived pan-CM totals) and has not been independently evaluated.
 
 The labels should be treated as provisional and inspectable rather than settled.
 
